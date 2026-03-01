@@ -1,0 +1,106 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: white;
+    }
+   .head{
+       display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+   }
+   
+    .body{
+    background-color: lightpink ;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwee;
+    padding: 50px;
+    
+    }
+    .content{
+        padding: 10px;
+    }
+    .hero-tv-image{
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    text-align: right; 
+    }
+    .button {  
+    background-color: hotpink;
+    color: white;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+}
+  .buy-now {
+    padding: 10px;
+    border-radius: 5px;
+}
+.categories {
+    padding: 50px;
+}
+.container { 
+    display: flex; 
+    gap: 20px;
+    }
+.main {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.watch { 
+    background-color: coral;
+}
+.bag { 
+    background-color: red;
+    }
+.shoes { 
+    background-color: mediumblue;
+    }
+.main img { 
+    width: 50px;
+    }
+.product-section {
+    padding: 50px 10%;
+    }
+
+.product {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+}
+.search {
+    background-color: pink;
+    text-align: center;
+    padding: 80px 0;
+    margin: 50px;
+    border-radius: 15px;
+}
+.form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.button {
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
