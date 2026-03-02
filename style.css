@@ -2,7 +2,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: white;
     }
    .head{
        display: flex;
@@ -17,7 +16,7 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-betwee;
+    justify-content: space-between;
     padding: 50px;
     
     }
@@ -73,6 +72,9 @@
     }
 .product-section {
     padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
 
 .product {
